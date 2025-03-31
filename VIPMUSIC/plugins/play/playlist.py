@@ -272,7 +272,7 @@ async def play_playlist(client, CallbackQuery, _):
         return await mystic.edit_text(err)
     return await mystic.delete()
 
-@app.on_message(filters.command("playplaylist") & ~BANNED_USERS)
+@app.on_message(filters.command("xplayplaylist") & ~BANNED_USERS)
 @languageCB
 async def play_playlist_command(client, message, _):
     user_id = message.from_user.id
@@ -729,7 +729,7 @@ async def add_playlists(client, CallbackQuery, _):
         return
 
 # New command
-DELETE_ALL_PLAYLIST_COMMAND = ("delallplaylist")
+DELETE_ALL_PLAYLIST_COMMAND = ("xdelallplaylist")
 
 @app.on_message(filters.command(DELETE_ALL_PLAYLIST_COMMAND) & ~BANNED_USERS)
 @language
