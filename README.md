@@ -50,6 +50,10 @@
 
 <p align="center"><a href="https://dashboard.heroku.com/new?template=https://github.com/rajeshrakis/HB-Cute"> <img src="https://img.shields.io/badge/Deploy%20On%20Heroku-bringle?style=for-the-badge&logo=heroku" width="220" height="38.45"/></a></p>
 <p align="center"><a href="https://dashboard.heroku.com/new?template=https://github.com/rajeshrakis/HB-Cute"> <img src="https://graph.org/file/7758e15f135e166b8637d.jpg" width="520" height="198.45"/></a></p>
+
+[![Deploy to Koyeb](https://www.koyeb.com/static/images/deploy/button.svg)](https://app.koyeb.com/deploy?name=applecute&repository=rajeshrakis%2FAppleCute&branch=master&builder=dockerfile&instance_type=free&regions=was&instances_min=0&autoscaling_sleep_idle_delay=300&env%5BBOT_TOKEN%5D=2096983652%3AAAGCPF06HIYxh1kgF6DJRziD6krrRlmNn0s&env%5BMONGO_DB_URI%5D=mongodb%2Bsrv%3A%2F%2Fheartbeat%3ABeat7Heart%40heartbeat.1h1nbxv.mongodb.net%2F%3FretryWrites%3Dtrue%26w%3Dmajority&env%5BSTRING_SESSION%5D=BQGJMTYAXfIWTC01KW1-BAinDhtCH8kph1okJL9ezhit4OsdeJ9_iQuodrxI7ol2JrajQG1GUzWNDmLKVzjuwLxVud5jaXxyybm-nFZxZumwdkx2LhTc9rG7KuRsqomjNiHOEU1dGetTFwjV4j5YxqwiWF7gwnee886JGgBKlNrchZyAGtwSGPddvhh_VFufbNQoFvvKwSufpK-waY8o5I-UjvI6dXpkBst6VhaCYukqnZUMKAeI_zX9qAkm7icmYY8yI_rc9_ywXrn9rCcvUUXGP9swrjN16k9-l6WO6t7h_KKWNMzEyTZKJce7rkxgKs2ydAuNrdSigC1lPJLwN8GqTN561AAAAAHSHPeVAA)
+
+
 ## 𝐇𝐨𝐰 𝐓𝐨 𝐃𝐞𝐩𝐥𝐨𝐲 𝐓𝐮𝐭𝐨𝐫𝐢𝐚𝐥 𝐕𝐢𝐝𝐞𝐨 𝐎𝐧 𝐘𝐨𝐮𝐭𝐮𝐛𝐞 📺
 
 - [![YouTube Video Views](https://img.shields.io/youtube/views/U8T5W3J1FNo?label=Tutorial+•+Heroku+•&style=social)](https://youtu.be/U8T5W3J1FNo)
