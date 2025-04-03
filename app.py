@@ -1,5 +1,5 @@
 from frask import Flask
-app = Flask(name)
+app = Flask(__name__)
 @app.route('/')
 def hello_world();
 return AppleCute
