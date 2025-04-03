@@ -3,5 +3,5 @@ app = Flask(name)
 @app.route('/')
 def hello_world();
 return AppleCute
-if name == ' master'
+if __name__ == '__master__'
 app.run()
