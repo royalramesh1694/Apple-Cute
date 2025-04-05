@@ -11,8 +11,13 @@ API_ID = int(getenv("API_ID", "10284859"))
 API_HASH = getenv("API_HASH", "b0ad58eb8b845ba0003e0d9ce5fc2196")
 # Get your token from @BotFather on Telegram.
 BOT_TOKEN = getenv("BOT_TOKEN", "2096983652:AAGCPF06HIYxh1kgF6DJRziD6krrRlmNn0s")
-
-# Get your mongo url from cloud.mongodb.com
+OWNER_USERNAME = getenv("OWNER_USERNAME","rajeshrakis")
+BOT_USERNAME = getenv("BOT_USERNAME", "thedakkidaikathaval_bot")
+BOT_NAME = getenv("BOT_NAME", "𝞖𝘌𝘈𝘙𝘛𝞑𝘌𝘈𝘛𝂬♡𝂬𝘿𝘙𝘜𝘎𝘡")
+ASSUSERNAME = getenv("ASSUSERNAME", "HeartBeat_eyes")
+EVALOP = list(map(int, getenv("EVALOP", "5059737154").split()))
+GPT_API = getenv("GPT_API", "sk-proj-h6pk40oVRIxpXwrf3i50T3BlbkFJGVET8wX1yJtdi0zCWjDQ")
+PLAYHT_API = getenv("PLAYHT_API", "22e323f342024c0fb4ee430eeb9d0011")
 MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://heartbeat:Beat7Heart@heartbeat.1h1nbxv.mongodb.net/?retryWrites=true&w=majority")
 
 DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 16000))
