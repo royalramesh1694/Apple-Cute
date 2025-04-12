@@ -88,7 +88,7 @@ CLEANMODE_DELETE_MINS = int(
 )  # Remember to give value in Seconds
 
 # Get your pyrogram v2 session from @VIP_STRING_ROBOT on Telegram
-STRING1 = getenv("STRING_SESSION", "BQDMBnkAGyIYh2aS3tZhs_GGWw748WA5aVIrcxI94oa_nxGTn3nV-idAFsJxPXh6kx7Fn3BvSgKEEUh1ZRsDqTog8N4RMsi0FjuheNWZxJl_ker5ZEpHg6X6HWj3lydAVN1PoUwPjgPeYwmDPbTdsjQb23zqWO4OGk1l4oCUPd0JQGW7b-c7-4PX67yH5hJYR21jaYpV3bYxMgUppgOdyQU8j8pIeB1mlQBahfgZvZ4odqqR6v8hS0V2dl8cxQupD36WgCty_cXC8t3khsnzw6bpsoM0Vugx2zVtpD4jrBeydugqiSHJH6ZgPPK6xK_YauyB1Yz9HBPnplPJLy00cIMUUnGNzgAAAAHQLt6HAA")
+STRING1 = getenv("STRING_SESSION", "BQDMBnkAns37W4veXo_LjcstbniKO0UkUpet9jwsRAHy_HAsnAw0vmgAmwCBaMHZASWxlRRTsBNgG-O-DwgcR17vgKv_H18xFwDNyvfTfSCkYxNBAUdXioz1HYrGK2FjfpeweN4UMni6gZA5x2rYehxQRw9C7L14ozL-ojw7ruXrz9japy5XGaSccPndORl9d7UxYu56rKiQtHDBQZidWm-Vdgzb6UXbogx-BzltYgYjy8-c2UJyANOLhRIQGu5vo0Vk53KoZg04NJi_iK9wiakBalGzQ_Zc3TGln88eikmP3fdfzxIQiuA9TBwpR7EMm1IdvTBXAfztOjt-6SByEgeSPcRqzwAAAAHjb-HaAA")
 STRING2 = getenv("STRING_SESSION2", None)
 STRING3 = getenv("STRING_SESSION3", None)
 STRING4 = getenv("STRING_SESSION4", None)
