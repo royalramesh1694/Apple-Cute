@@ -18,8 +18,8 @@ async def _whisper(_, inline_query):
         mm = [
             InlineQueryResultArticle(
                 title="⦿ Wʜɪsᴘᴇʀ ⦿",
-                description=f"@{BOT_USERNAME} [ USERNAME | ID ] [ TEXT ]",
-                input_message_content=InputTextMessageContent(f"⦿ Usᴀɢᴇ:\n\n@{BOT_USERNAME} [ USERNAME | ID ] [ TEXT ]"),
+                description=f"@{BOT_USERNAME} [ TEXT ] [ USERNAME | ID ]",
+                input_message_content=InputTextMessageContent(f"⦿ Usᴀɢᴇ:\n\n@{BOT_USERNAME} [ TEXT ] [ USERNAME | ID ]"),
                 thumb_url="https://graph.org/file/ffdb1be822436121cf5fd.png",
                 reply_markup=switch_btn
             )
@@ -103,7 +103,7 @@ async def in_help():
         InlineQueryResultArticle(
             title="⦿ Whisper ⦿",
             description=f"@{BOT_USERNAME} [USERNAME | ID] [TEXT]",
-            input_message_content=InputTextMessageContent(f"**❍ Usage:**\n\n@{BOT_USERNAME} (Target Username or ID) (Your Message).\n\n**Example:**\n@{BOT_USERNAME} @username I Wanna Phuck You"),
+            input_message_content=InputTextMessageContent(f"**❍ Usage:**\n\n@{BOT_USERNAME} (Your Message) (Target Username or ID) .\n\n**Example:**\n@{BOT_USERNAME} Vadi Odipolam @username"),
             thumb_url="https://graph.org/file/ffdb1be822436121cf5fd.png",
             reply_markup=switch_btn
         )
