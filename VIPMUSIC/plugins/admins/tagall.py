@@ -6,6 +6,9 @@ from pyrogram.enums import ChatType, ChatMemberStatus
 from pyrogram.errors import UserNotParticipant
 from pyrogram.types import ChatPermissions
 
+from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton
+
+
 spam_chats = []
 
 EMOJI = [ "🦋🦋🦋🦋🦋",
@@ -225,7 +228,13 @@ async def mentionall(client, message):
         if usrnum == 1:
             if mode == "text_on_cmd":
                 txt = f"{usrtxt} {random.choice(TAGMES)}\n\n|| ➥ ᴏғғ ᴛᴀɢɢɪɴɢ ʙʏ » /stoptagall ||"
-                await client.send_message(chat_id, txt)
+                await client.send_message(chat_id, txt, reply_markup=InlineKeyboardMarkup([
+                     [InlineKeyboardButton( text="💕 𝐒𖾓𖽖𖽷𖾓 🦋", url=f"https://t.me/{app.username}?start=help")]
+                ]))
+
+             
+                
+
             elif mode == "text_on_reply":
                 await msg.reply(f"[{random.choice(EMOJI)}](tg://user?id={usr.user.id})")
             await asyncio.sleep(4)
@@ -271,7 +280,12 @@ async def mention_allvc(client, message):
 
         if usrnum == 1:
             txt = f"{usrtxt} {random.choice(VC_TAG)}\n\n|| ➥ ᴏғғ ᴛᴀɢɢɪɴɢ ʙʏ » /stopvctag ||"
-            await client.send_message(chat_id, txt)
+            await client.send_message(chat_id, txt, reply_markup=InlineKeyboardMarkup([
+                     [InlineKeyboardButton( text="💕 𝐒𖾓𖽖𖽷𖾓 🦋", url=f"https://t.me/{app.username}?start=help")]
+                ]))
+
+		
+
             await asyncio.sleep(4)
             usrnum = 0
             usrtxt = ""
@@ -305,3 +319,5 @@ async def cancel_spam(client, message):
         except:
             pass
         return await message.reply("♦ 𝐒𝐭𝐨𝐩𝐩𝐞𝐝..♦")
+
+
