@@ -20,8 +20,8 @@ MESSAGES = f"""𝘽𝙊𝙏 𝙁𝙀𝘼𝙏𝙐𝙍𝙀𝙎: (•‌ᴗ•‌)�
 
 ✰ 𝐌𝐞𝐧𝐭𝐢𝐨𝐧/𝐓𝐚𝐠𝐀𝐥𝐥:💫
 ➻ /tagall
-➻ /vctag
-➻ /heartbeat /honeymoon
+➻ /vctag /vctamil
+➻ /heartbeat /honeymoon /honey
 ➻ /gmtag /gntag
 ➻ /tamiltag
 
@@ -29,7 +29,7 @@ MESSAGES = f"""𝘽𝙊𝙏 𝙁𝙀𝘼𝙏𝙐𝙍𝙀𝙎: (•‌ᴗ•‌)�
 ✰ 𝑭𝒖𝒏 𝑻𝒂𝒈𝒔:🥂
 ➻ /lifeline
 ➻ /lovebeats
-➻ /love
+➻ /heart
 ➻ /couples
 ➻ /love (BoyName) (GirlName)
 
