@@ -7,6 +7,7 @@ from pyrogram.types import ChatPermissions
 from VIPMUSIC import app
 from VIPMUSIC.utils.vip_ban import admin_filter
 
+from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton
 
 SPAM_CHATS = []
 
@@ -48,7 +49,9 @@ async def tag_all_users(_,message):
             usernum += 1
             usertxt += f"\n⊚ [{m.user.first_name}](tg://user?id={m.user.id})\n"
             if usernum == 5:
-                await app.send_message(message.chat.id,f'{text}\n{usertxt}\n\n|| ➥ ᴏғғ ᴛᴀɢɢɪɴɢ ʙʏ » /cancel ||')
+                await app.send_message(message.chat.id,f'{text}\n{usertxt}\n\n|| ➥ ᴏғғ ᴛᴀɢɢɪɴɢ ʙʏ » /cancel ||', reply_markup=InlineKeyboardMarkup([
+                     [InlineKeyboardButton( text="💕 𝐒𖾓𖽖𖽷𖾓 🦋", url=f"https://t.me/{app.username}?start=help")]
+                ]))
                 await asyncio.sleep(2)
                 usernum = 0
                 usertxt = ""                          
