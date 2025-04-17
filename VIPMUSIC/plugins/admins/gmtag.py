@@ -6,6 +6,8 @@ from pyrogram.enums import ChatType, ChatMemberStatus
 from pyrogram.errors import UserNotParticipant
 from pyrogram.types import ChatPermissions
 
+from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton
+
 spam_chats = []
 
 EMOJI = [ "🦋🦋🦋🦋🦋",
