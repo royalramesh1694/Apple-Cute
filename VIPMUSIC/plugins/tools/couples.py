@@ -4,12 +4,22 @@ from datetime import datetime
 from telegraph import upload_file
 from PIL import Image , ImageDraw
 from pyrogram import *
-from pyrogram.types import *
+from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
 from pyrogram.enums import *
 
 #BOT FILE NAME
 from VIPMUSIC import app as app
 from VIPMUSIC.mongo.couples_db import _get_image, get_couple
+
+POLICE = [
+    [
+        InlineKeyboardButton(
+            text="𝅗ـﮩ٨ـ𝅽𝅾𓆩𝐇𖽞𖽖֟֯͡𖽸𖾓𝂬͢♡͢𝂬𝐁𖽞֟֠֯͡𖽖𖾓𓆪ﮩ٨ـ𝅽𝅾‐𝅘",
+            url=f"https://t.me/HeartBeat_Muzic",
+        ),
+    ],
+]
+
 
 def dt():
     now = datetime.now()
@@ -35,7 +45,7 @@ today = str(dt()[0])
 async def ctest(_, message):
     cid = message.chat.id
     if message.chat.type == ChatType.PRIVATE:
-        return await message.reply_text("This command only works in groups.")
+        return await message.reply_text("ᴛʜɪs ᴄᴏᴍᴍᴀɴᴅ ᴏɴʟʏ ᴡᴏʀᴋs ɪɴ ɢʀᴏᴜᴘs.")
     try:
      #  is_selected = await get_couple(cid, today)
      #  if not is_selected:
@@ -71,7 +81,7 @@ async def ctest(_, message):
          img1 = Image.open(f"{p1}")
          img2 = Image.open(f"{p2}")
 
-         img = Image.open("VIPMUSIC/assets/annie/ANNIECP.png")
+         img = Image.open("ANNIEMUSIC/assets/ANNIECP.png")
 
          img1 = img1.resize((486,486))
          img2 = img2.resize((486,486))
@@ -103,7 +113,8 @@ async def ctest(_, message):
 𝐍ᴇxᴛ 𝐂ᴏᴜᴘʟᴇs 𝐖ɪʟʟ 𝐁ᴇ 𝐒ᴇʟᴇᴄᴛᴇᴅ 𝐎ɴ {tomorrow} !!**
 """
     
-         await message.reply_photo(f"test_{cid}.png", caption=TXT)
+         await message.reply_photo(f"test_{cid}.png", caption=TXT, reply_markup=InlineKeyboardMarkup(POLICE),
+    )
          await msg.delete()
          a = upload_file(f"test_{cid}.png")
          for x in a:
