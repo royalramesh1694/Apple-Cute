@@ -12,49 +12,42 @@ START_IMG_URLS = "https://graph.org/file/ffdb1be822436121cf5fd.png"
 
 MESSAGES = f"""𝘽𝙊𝙏 𝙁𝙀𝘼𝙏𝙐𝙍𝙀𝙎: (•‌ᴗ•‌)و
 
-⍟𝗌ᴜᴘᴘᴏʀᴛ ʏᴏᴜᴛᴜʙᴇ ʟɪɴᴋ𝗌 ⍟ ᴡᴇʟᴄᴏᴍᴇ ɴᴏᴛɪᴄᴇ ⍟ ᴠᴄ-ɪɴᴠɪᴛᴇ ᴄᴀʀᴅ ⍟ ᴘʟᴀʏ ᴡɪᴛʜᴏᴜᴛ 𝗌ʟᴀ𝗌ʜ
+<blockquote>⍟𝗌ᴜᴘᴘᴏʀᴛ ʏᴏᴜᴛᴜʙᴇ ʟɪɴᴋ𝗌 ⍟ ᴡᴇʟᴄᴏᴍᴇ ɴᴏᴛɪᴄᴇ ⍟ ᴠᴄ-ɪɴᴠɪᴛᴇ ᴄᴀʀᴅ ⍟ ᴘʟᴀʏ ᴡɪᴛʜᴏᴜᴛ 𝗌ʟᴀ𝗌ʜ</blockquote>
 
-✰ 𝐏𝐥𝐚𝐲𝐢𝐧𝐠 𝐒𝐨𝐧𝐠𝐬 & 𝐕𝐢𝐝𝐞𝐨𝐬 💫 (𝑆𝑢𝑝𝑝𝑜𝑟𝑡 𝑌𝑜𝑢𝑡𝑢𝑏𝑒 𝑙𝑖𝑛𝑘𝑠) 
+<blockquote>✰ 𝐏𝐥𝐚𝐲𝐢𝐧𝐠 𝐒𝐨𝐧𝐠𝐬 & 𝐕𝐢𝐝𝐞𝐨𝐬 💫 (𝑆𝑢𝑝𝑝𝑜𝑟𝑡 𝑌𝑜𝑢𝑡𝑢𝑏𝑒 𝑙𝑖𝑛𝑘𝑠) 
 ➻ /play or play
-➻ /vplay or vplay
-
-✰ 𝐌𝐞𝐧𝐭𝐢𝐨𝐧/𝐓𝐚𝐠𝐀𝐥𝐥:💫
+➻ /vplay or vplay</blockquote>
+<blockquote>✰ 𝐌𝐞𝐧𝐭𝐢𝐨𝐧/𝐓𝐚𝐠𝐀𝐥𝐥:💫
 ➻ /tagall
 ➻ /vctag /vctamil
 ➻ /heartbeat /honeymoon /honey
 ➻ /gmtag /gntag
-➻ /tamiltag
+➻ /tamiltag</blockquote>
 
 😻ᴘʀᴏ ғᴇᴀᴛᴜʀᴇ𝗌 ᴜɴʟᴏᴄᴋᴇᴅ🥳
-✰ 𝑭𝒖𝒏 𝑻𝒂𝒈𝒔:🥂
+<blockquote>✰ 𝑭𝒖𝒏 𝑻𝒂𝒈𝒔:🥂
 ➻ /lifeline
 ➻ /lovebeats
 ➻ /heart
 ➻ /couples
-➻ /love (BoyName) (GirlName)
-
-✰ 𝐖𝐡𝐢𝐬𝐩𝐞𝐫 𝐌𝐞𝐬𝐬𝐚𝐠𝐞𝐬:🥂
+➻ /love (BoyName) (GirlName)</blockquote>
+<blockquote>✰ 𝐖𝐡𝐢𝐬𝐩𝐞𝐫 𝐌𝐞𝐬𝐬𝐚𝐠𝐞𝐬:🥂
 (𝑆𝑢𝑝𝑝𝑜𝑟𝑡 𝘗𝘔/𝑂𝑛𝑒 𝑇𝑖𝑚𝑒 𝑉𝑖𝑒𝑤)
-➻ @BotUsername @User_UserName (Text Message)
-
-✰ 𝐃𝐨𝐰𝐧𝐥𝐨𝐚𝐝 𝐒𝐨𝐧𝐠𝐬 𝐕𝐢𝐝𝐞𝐨𝐬:🥂
+➻ @BotUsername @User_UserName (Text Message)</blockquote>
+<blockquote>✰ 𝐃𝐨𝐰𝐧𝐥𝐨𝐚𝐝 𝐒𝐨𝐧𝐠𝐬 𝐕𝐢𝐝𝐞𝐨𝐬:🥂
 (𝑆𝑢𝑝𝑝𝑜𝑟𝑡 𝐼𝑛𝑠𝑡𝑎 𝑅𝑒𝑎𝑙𝑠 𝑑𝑜𝑤𝑛𝑙𝑜𝑎𝑑)
 ➻ /song Song Name
 ➻ /video Song Name
-➻ /insta InstaLink
+➻ /insta InstaLink</blockquote>
+<blockquote>✰ 𝐓𝐨𝐩 𝐔𝐬𝐞𝐫𝐬🥂
+➻ /ranking</blockquote>
+<blockquote>✰ 𝐍𝐚𝐦𝐞 𝐇𝐢𝐬𝐭𝐨𝐫𝐲🥂
+➻ /sg (replay user message|id)</blockquote>
+<blockquote>✰ 𝐆𝐞𝐧𝐞𝐫𝐚𝐭𝐞 𝐒𝐭𝐲𝐥𝐢𝐬𝐡 𝐅𝐨𝐧𝐭𝐬:🥂
+➻ /font (Text)</blockquote>
 
-✰ 𝐓𝐨𝐩 𝐔𝐬𝐞𝐫𝐬🥂
-➻ /ranking
-
-✰ 𝐍𝐚𝐦𝐞 𝐇𝐢𝐬𝐭𝐨𝐫𝐲🥂
-➻ /sg (replay user message|id)
-
-✰ 𝐆𝐞𝐧𝐞𝐫𝐚𝐭𝐞 𝐒𝐭𝐲𝐥𝐢𝐬𝐡 𝐅𝐨𝐧𝐭𝐬:🥂
-➻ /font (Text)
-
-💕Sᴜᴘᴘᴏʀᴛ Mᴀɴᴀɢᴇᴍᴇɴᴛ Bᴏᴛ Fᴇᴀᴛᴜʀᴇ𝗌 Lɪᴋᴇ:🦋
-𝙸𝙳, 𝙸𝚗𝚏𝚘, 𝙵𝚒𝚕𝚝𝚎𝚛𝚜, 𝙱𝚊𝚗𝚜, 𝙼𝚞𝚝𝚎𝚜, 𝚎𝚝𝚌,.
-
+<blockquote>💕Sᴜᴘᴘᴏʀᴛ Mᴀɴᴀɢᴇᴍᴇɴᴛ Bᴏᴛ Fᴇᴀᴛᴜʀᴇ𝗌 Lɪᴋᴇ:🦋
+𝙸𝙳, 𝙸𝚗𝚏𝚘, 𝙵𝚒𝚕𝚝𝚎𝚛𝚜, 𝙱𝚊𝚗𝚜, 𝙼𝚞𝚝𝚎𝚜, 𝚎𝚝𝚌,.</blockquote>
 ----------------------------------
 😈😈𝘼𝙇𝙇 𝙁𝙀𝘼𝙏𝙐𝙍𝙀𝙎 𝘼𝙍𝙀 𝘼𝙑𝘼𝙄𝙇𝘼𝘽𝙇𝙀 𝑶𝑵𝑳𝒀  𝙄𝙉 𝙏𝙃𝙄𝙎 𝘽𝙊𝙏🥵🥵
 ----------------------------------
