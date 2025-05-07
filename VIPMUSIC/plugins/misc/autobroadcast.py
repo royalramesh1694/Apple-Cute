@@ -64,7 +64,7 @@ MESSAGES = f"""𝘽𝙊𝙏 𝙁𝙀𝘼𝙏𝙐𝙍𝙀𝙎: (•‌ᴗ•‌)�
 BUTTONS = InlineKeyboardMarkup(
     [
         [
-            InlineKeyboardButton("💕‌𝞖𝘌𝘈𝘙𝘛𝂬♡𝂬‌𝞑𝘌𝘈𝘛𝆺𝅥🦋", url=f"https://t.me/HeartBeat_Muzic")
+            InlineKeyboardButton("𝅗ـﮩ٨ـ𝅽𝅾𓆩𝐇𖽞𖽖֟֯͡𖽸𖾓𝂬͢♡͢𝂬𝐁𖽞֟֠֯͡𖽖𖾓𓆪ﮩ٨ـ𝅽𝅾‐𝅘", url=f"https://t.me/HeartBeat_Muzic")
         ]
     ]
 )
