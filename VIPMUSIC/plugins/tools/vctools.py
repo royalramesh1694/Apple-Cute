@@ -17,7 +17,7 @@ async def brah2(_, msg):
 # invite members on vc
 @app.on_message(filters.video_chat_members_invited)
 async def brah3(app: app, message: Message):
-    text = f"*💕 {message.from_user.mention}\n\n**𝑉𝑐 𝑉𝑎 𝑃𝑎𝑛𝑔𝑢𝑢𝑢 🫀🫂💙**\n\n**💕 **"
+    text = f"*💕 {message.from_user.mention}\n\n**𝙀𝘭𝘦𝘺 𝙀𝘱𝘥𝘪 𝙄𝘳𝘶𝘬𝘬𝘦 🫀🫂💙**\n\n**💕 **"
     x = 0
     for user in message.video_chat_members_invited.users:
         try:
@@ -28,11 +28,11 @@ async def brah3(app: app, message: Message):
 
     try:
         invite_link = await app.export_chat_invite_link(message.chat.id)
-        add_link = f"https://t.me/{app.username}?startgroup=true"
+        add_link = f"https://t.me/{app.username}?start=help"
         reply_text = f"{text} 🤭🤭"
 
         await message.reply(reply_text, reply_markup=InlineKeyboardMarkup([
-            [InlineKeyboardButton(text= "🐣 𝑉𝑐 𝐿𝑎 𝐽𝑜𝑖𝑛 𝐴𝑔𝑢𝑑𝑎 🦋", url=add_link)],
+            [InlineKeyboardButton(text= "💕 𝗩𝗖 𝗩𝗮𝗹𝗲𝘆 𝗩𝗲𝗻𝗻𝗮𝗺𝗮𝘃𝗲 🦋", url=add_link)],
         ]))
     except Exception as e:
         print(f"Error: {e}")
