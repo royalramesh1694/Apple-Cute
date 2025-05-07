@@ -112,7 +112,7 @@ async def download_song(_, message):
 ###### INSTAGRAM REELS DOWNLOAD
 
 
-@app.on_message(filters.command(["ig"], ["/", "!", "."]))
+@app.on_message(filters.command(["ig", "insta", "instagram"], ["/", "!", "."]))
 async def download_instareels(c: app, m: Message):
     user_id = message.from_user.id
     current_time = time()
@@ -162,7 +162,7 @@ async def download_instareels(c: app, m: Message):
 
 ######
 
-@app.on_message(filters.command(["reel"], ["/", "!", "."]))
+@app.on_message(filters.command(["reel", "reels"], ["/", "!", "."]))
 async def instagram_reel(client, message):
     user_id = message.from_user.id
     current_time = time()
