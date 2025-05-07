@@ -18,8 +18,8 @@ async def _whisper(_, inline_query):
         mm = [
             InlineQueryResultArticle(
                 title="⦿ Wʜɪsᴘᴇʀ ⦿",
-                description=f"@{BOT_USERNAME} [ TEXT ] [ USERNAME | ID ]",
-                input_message_content=InputTextMessageContent(f"⦿ Usᴀɢᴇ:\n\n@{BOT_USERNAME} [ TEXT ] [ USERNAME | ID ]"),
+                description=f"@{BOT_USERNAME} [ USERNAME | ID ] [ TEXT ]",
+                input_message_content=InputTextMessageContent(f"⦿ Usᴀɢᴇ:\n\n@{BOT_USERNAME} [ USERNAME | ID ] [ TEXT ]"),
                 thumb_url="https://graph.org/file/ffdb1be822436121cf5fd.png",
                 reply_markup=switch_btn
             )
