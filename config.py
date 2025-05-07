@@ -10,7 +10,7 @@ load_dotenv()
 API_ID = int(getenv("API_ID", "10284859"))
 API_HASH = getenv("API_HASH", "b0ad58eb8b845ba0003e0d9ce5fc2196")
 # Get your token from @BotFather on Telegram.
-BOT_TOKEN = getenv("BOT_TOKEN", "2096983652:AAGCPF06HIYxh1kgF6DJRziD6krrRlmNn0s")
+BOT_TOKEN = getenv("BOT_TOKEN", "2096983652:AAHz41orhz9RrWscwg_WwSCp0_OhP-zLmDY")
 OWNER_USERNAME = getenv("OWNER_USERNAME","rajeshrakis")
 BOT_USERNAME = getenv("BOT_USERNAME", "thedakkidaikathaval_bot")
 BOT_NAME = getenv("BOT_NAME", "𝞖𝘌𝘈𝘙𝘛𝞑𝘌𝘈𝘛𝂬♡𝂬𝘿𝘙𝘜𝘎𝘡")
@@ -31,13 +31,13 @@ OWNER_ID = int(getenv("OWNER_ID","1281282633"))
 
 ## Fill these variables if you're deploying on heroku.
 # Your heroku app name
-HEROKU_APP_NAME = getenv("HEROKU_APP_NAME", "hb-cute")
+HEROKU_APP_NAME = getenv("HEROKU_APP_NAME", "apple-cute")
 # Get it from http://dashboard.heroku.com/account
 HEROKU_API_KEY = getenv("HEROKU_API_KEY", "HRKU-fc1b7aea-b37a-4015-9877-8c3967ee97bc")
 
 UPSTREAM_REPO = getenv(
     "UPSTREAM_REPO",
-    "https://github.com/rajeshrakis/AppleCute",
+    "https://github.com/rajeshrakis/Apple-Cute",
 )
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "master")
 GIT_TOKEN = getenv(
@@ -88,7 +88,7 @@ CLEANMODE_DELETE_MINS = int(
 )  # Remember to give value in Seconds
 
 # Get your pyrogram v2 session from @VIP_STRING_ROBOT on Telegram
-STRING1 = getenv("STRING_SESSION", "BQDMBnkAns37W4veXo_LjcstbniKO0UkUpet9jwsRAHy_HAsnAw0vmgAmwCBaMHZASWxlRRTsBNgG-O-DwgcR17vgKv_H18xFwDNyvfTfSCkYxNBAUdXioz1HYrGK2FjfpeweN4UMni6gZA5x2rYehxQRw9C7L14ozL-ojw7ruXrz9japy5XGaSccPndORl9d7UxYu56rKiQtHDBQZidWm-Vdgzb6UXbogx-BzltYgYjy8-c2UJyANOLhRIQGu5vo0Vk53KoZg04NJi_iK9wiakBalGzQ_Zc3TGln88eikmP3fdfzxIQiuA9TBwpR7EMm1IdvTBXAfztOjt-6SByEgeSPcRqzwAAAAHjb-HaAA")
+STRING1 = getenv("STRING_SESSION", "BQDMBnkANkdd2OSiqGwlNUIllqlR1uOT5-eq358s9Li-x0jn6gykpHz0bip0fnbPdfE1tQF95bPETepPC8dpVmVg_KL0NT5UsZH4djWJNmyeyUHeiAPulqIBiljZHIMHB8JV2r1GZr_ojoJZFgZhTrRgUCQwDlYNlskQKDnwtAQm2rbdmr6ZqVx0Tph5Iord2wX25eqXEytuAOKVehKSv746DMGAGEKs7g03f8kobBWsRl-a34hcOhi_t2aj0VU4VNFEokqfvc73l412x2r0zRksYyiLdbxwEtb35rohPEIkV61i94JrXjxzFObvyr5MyAhdUaM-Ax1HRCp0eVhNOMvMxTvKBgAAAAB8_W5kAQ")
 STRING2 = getenv("STRING_SESSION2", None)
 STRING3 = getenv("STRING_SESSION3", None)
 STRING4 = getenv("STRING_SESSION4", None)
