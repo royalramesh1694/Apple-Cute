@@ -10,7 +10,10 @@ AUTO_GCASTS = f"{AUTO_GCAST}" if AUTO_GCAST else False
 
 START_IMG_URLS = "https://graph.org/file/ffdb1be822436121cf5fd.png"
 
-MESSAGES = f"""𝘽𝙊𝙏 𝙁𝙀𝘼𝙏𝙐𝙍𝙀𝙎: (•‌ᴗ•‌)و
+MESSAGES = f"""<blockquote>✰ ᴍᴜsɪᴄ ✰ᴍᴇɴᴛɪᴏɴ ✰ᴍᴀɴᴀɢᴇᴍᴇɴᴛ ✰ᴄʜᴀᴛʙᴏᴛ</blockquote>
+
+𝘽𝙊𝙏 𝙁𝙀𝘼𝙏𝙐𝙍𝙀𝙎: (•‌ᴗ•‌)و
+𝙄𝙢 𝙪𝙣𝙡𝙤𝙘𝙠𝙚𝙙 𝙢𝙮 𝙎𝙩𝙪𝙣𝙣𝙞𝙣𝙜 𝙋𝙧𝙤 𝙁𝙪𝙩𝙪𝙧𝙚𝙨 𝙞𝙣𝙨𝙞𝙙𝙚 𝙢𝙚:
 
 <blockquote>⍟𝗌ᴜᴘᴘᴏʀᴛ ʏᴏᴜᴛᴜʙᴇ ʟɪɴᴋ𝗌 ⍟ ᴡᴇʟᴄᴏᴍᴇ ɴᴏᴛɪᴄᴇ ⍟ ᴠᴄ-ɪɴᴠɪᴛᴇ ᴄᴀʀᴅ ⍟ ᴘʟᴀʏ ᴡɪᴛʜᴏᴜᴛ 𝗌ʟᴀ𝗌ʜ</blockquote>
 
@@ -24,7 +27,6 @@ MESSAGES = f"""𝘽𝙊𝙏 𝙁𝙀𝘼𝙏𝙐𝙍𝙀𝙎: (•‌ᴗ•‌)�
 ➻ /gmtag /gntag
 ➻ /tamiltag</blockquote>
 😻ᴘʀᴏ ғᴇᴀᴛᴜʀᴇ𝗌 ᴜɴʟᴏᴄᴋᴇᴅ🥳
--------------------------
 <blockquote>✰ 𝑭𝒖𝒏 𝑻𝒂𝒈𝒔:🥂
 ➻ /lifeline
 ➻ /lovebeats
